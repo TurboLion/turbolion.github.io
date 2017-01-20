@@ -103,6 +103,30 @@ ga('send', 'pageview');
   
     
   
+  <div>
+    Use the form below, or contact me directly by sending an email to: <i>turboblog <i class="fa fa-at" aria-hidden="true"></i> outlook.com</i>
+  </div>
+  <!-- Thanks to: https://www.knownly.net/community/guides/set-up-formspree-contact-form/index.html -->
+  <form class="form" id="contact" action="//formspree.io/turboblog@outlook.com" method="POST">
+    <fieldset class="field">
+      <label class="label" for="name"><span class="label-content"><i class="fa fa-user-o fa-fw" aria-hidden="true"></i> Your name:</span></label>
+      <input class="input" type="text" name="name" placeholder="John Smith" required>
+    </fieldset>
+    <fieldset class="field">
+      <label class="label" for="_replyto"><span class="label-content"><i class="fa fa-envelope-o fa-fw" aria-hidden="true"></i> Your email:</span></label>
+      <input class="input" type="email" name="_replyto" placeholder="email@example.com" required>
+    </fieldset>
+    <fieldset class="field">
+      <label class="label" for="message"><span class="label-content"><i class="fa fa-comment-o fa-fw" aria-hidden="true"></i> Your message:</span></label>
+      <textarea class="input" name="message" rows="5" placeholder="Message" required></textarea>
+    </fieldset>
+    <input class="hidden" type="text" name="_gotcha" style="display:none">
+    <input class="hidden" type="hidden" name="_subject" value="Contact from TurboBlog">
+    <fieldset class="field">
+      <input class="button submit" type="submit" value="Send">
+    </fieldset>
+  </form>
+
 </article>
 </section>
     <footer id="footer">

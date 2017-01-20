@@ -1106,6 +1106,28 @@ pre .php .xml {
   font-family: 'Droid Serif', 'PT Serif', Cambria, serif;
   text-shadow: 1px 3px 3px rgba(0,0,0,0.5);
 }
+form#contact fieldset {
+  margin: 1em 0;
+}
+form#contact input,
+form#contact textarea {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Droid Serif', 'PT Serif', Cambria, serif;
+  font-size: 16px;
+  line-height: 1.4em;
+  margin: 0.5em 0;
+  max-width: 100%;
+  min-width: 100%;
+  padding: 0.1em;
+}
+form#contact label,
+form#contact .button {
+  font-family: 'Droid Sans', Calibri, sans-serif;
+}
 /*
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
