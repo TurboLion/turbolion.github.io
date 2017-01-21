@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>How I prepare images for this blog - TurboBlog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="A quick story about which programs I use to prepare images for this blog.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="How I prepare images for this blog">
+<meta property="og:url" content="http://turbolion.github.io/2017/01/22/how-i-prepare-images-for-this-blog/index.html">
+<meta property="og:site_name" content="TurboBlog">
+<meta property="og:description" content="A quick story about which programs I use to prepare images for this blog.">
+<meta property="og:image" content="http://turbolion.github.io/2017/01/22/how-i-prepare-images-for-this-blog/dsc_1156.jpg">
+<meta property="og:updated_time" content="2017-01-21T22:03:20.950Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="How I prepare images for this blog">
+<meta name="twitter:description" content="A quick story about which programs I use to prepare images for this blog.">
+<meta name="twitter:image" content="http://turbolion.github.io/2017/01/22/how-i-prepare-images-for-this-blog/dsc_1156.jpg">
+  
+  
+    <link rel="icon" href="/favicon.ico">
+  
+  <link href="/webfonts/ptserif/main.css" rel='stylesheet' type='text/css'>
+  <link href="/webfonts/source-code-pro/main.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="/css/style.css">
+  
+<!-- Google Analytics -->
+<script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-51376562-2', 'auto');
+ga('send', 'pageview');
+
+</script>
+<!-- End Google Analytics -->
+
+
+</head>
+
+<body>
+  <div id="container">
+    <header id="header">
+  <div id="header-outer" class="outer">
+    <div id="header-inner" class="inner">
+      <a id="main-nav-toggle" class="nav-icon" href="javascript:;"></a>
+      <a id="logo" class="logo logo-text" href="/">TurboBlog</a>
+      <nav id="main-nav">
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+          <a class="main-nav-link" href="/categories">Categories</a>
+        
+          <a class="main-nav-link" href="/tags">Tags</a>
+        
+          <a class="main-nav-link" href="/about">About</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        <div id="search-form-wrap">
+          <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://turbolion.github.io"></form>
+        </div>
+      </nav>
+    </div>
+  </div>
+</header>
+    <section id="main" class="outer"><article id="post-how-i-prepare-images-for-this-blog" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      How I prepare images for this blog
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-meta">
+      <a href="/2017/01/22/how-i-prepare-images-for-this-blog/" class="article-date">
+  <time datetime="2017-01-21T22:00:00.000Z" itemprop="datePublished">2017-01-22</time>
+</a>
+      
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/software/">software</a>
+  </div>
+
+      
+    </div>
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>A quick story about which programs I use to prepare images for this blog.</p>
+<img src="/2017/01/22/how-i-prepare-images-for-this-blog/dsc_1156.jpg" alt="Don't worry, there will be copy-pasteable code inside &#x1f603;" title="Don't worry, there will be copy-pasteable code inside &#x1f603;">
+<a id="more"></a>
+<p>The batch script I use is located in my Hexo folder in a sub-folder called <code>optimization</code>. The script itself is called <code>optimize.bat</code>. To use it I run this from the command line:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">optimize.bat PATH_TO_IMAGES</div></pre></td></tr></table></figure></p>
+<p>Here’s the actual code:</p>
+<figure class="highlight dos"><figcaption><span>optimize.bat</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div></pre></td><td class="code"><pre><div class="line">@<span class="built_in">echo</span> off</div><div class="line"><span class="built_in">set</span> EXEPATH=<span class="variable">%CD%</span></div><div class="line"><span class="built_in">set</span> WATERMARK=\"(c) TurboBlog\"</div><div class="line"><span class="built_in">cd</span> ..\source\_posts\%<span class="number">1</span></div><div class="line"><span class="comment"></span></div><div class="line">rem Lowercase</div><div class="line"><span class="keyword">for</span> /F <span class="variable">%%a</span> <span class="keyword">in</span> ('<span class="built_in">dir</span> /L /B') <span class="keyword">do</span> <span class="built_in">rename</span> <span class="variable">%%a</span> <span class="variable">%%a</span></div><div class="line"><span class="comment"></span></div><div class="line">rem JPEG: Resize and watermark</div><div class="line">forfiles /M *.jpg /s /c "<span class="built_in">cmd</span> /c @\"<span class="variable">%EXEPATH%</span>\<span class="built_in">convert</span>.exe\" @file -resize <span class="number">1920</span> -pointsize <span class="number">15</span> -gravity SouthEast -stroke #<span class="number">000</span>C -strokewidth <span class="number">2</span> -annotate +<span class="number">5</span>+<span class="number">5</span> <span class="variable">%WATERMARK%</span> -stroke none -fill white -annotate +<span class="number">5</span>+<span class="number">5</span> <span class="variable">%WATERMARK%</span> @file"</div><div class="line"><span class="comment"></span></div><div class="line">rem JPEG: Lossy </div><div class="line">forfiles /M *.jpg /s /c "<span class="built_in">cmd</span> /c @\"<span class="variable">%EXEPATH%</span>\jpegoptim.exe\" --max=<span class="number">88</span> --strip-all @file"</div><div class="line"><span class="comment"></span></div><div class="line">rem JPEG: Lossless</div><div class="line">forfiles /M *.jpg /s /c "<span class="built_in">cmd</span> /c @\"<span class="variable">%EXEPATH%</span>\jpegtran.exe\" -optimize -progressive -<span class="built_in">copy</span> none @file @file"</div><div class="line"><span class="comment"></span></div><div class="line">rem PNG: Resize and watermark</div><div class="line">forfiles /M *.png /s /c "<span class="built_in">cmd</span> /c @\"<span class="variable">%EXEPATH%</span>\<span class="built_in">convert</span>.exe\" @file -resize <span class="number">1920</span> -pointsize <span class="number">15</span> -gravity SouthEast -stroke #<span class="number">000</span>C -strokewidth <span class="number">2</span> -annotate +<span class="number">5</span>+<span class="number">5</span> <span class="variable">%WATERMARK%</span> -stroke none -fill white -annotate +<span class="number">5</span>+<span class="number">5</span> <span class="variable">%WATERMARK%</span> @file"</div><div class="line"><span class="comment"></span></div><div class="line">rem PNG: Lossless</div><div class="line">forfiles /M *.png /s /c "<span class="built_in">cmd</span> /c @\"<span class="variable">%EXEPATH%</span>\pngout.exe\" @file"</div><div class="line"><span class="comment"></span></div><div class="line">rem Go back</div><div class="line"><span class="built_in">cd</span> <span class="variable">%EXEPATH%</span></div></pre></td></tr></table></figure>
+<p>This script is based on the one described here:<br><a href="http://blog.stationfour.com/how-to-automate-png-jpg-image-optimization-in-windows/" target="_blank" rel="external">http://blog.stationfour.com/how-to-automate-png-jpg-image-optimization-in-windows/</a></p>
+<p>Here’s what going on:</p>
+<ol>
+<li><p>First I convert all filenames to lowercased, based on a <a href="http://superuser.com/a/599988/684136" target="_blank" rel="external">StackOverflow answer</a>; this is needed for consistency, so that when I move my files to Linux or other systems where filenames are case sensitive (e.g. <code>foo</code>, <code>Foo</code> and <code>FOO</code> are 3 different files), I won’t run into problems.</p>
+</li>
+<li><p>Then I use <a href="https://www.imagemagick.org/script/binary-releases.php#windows" target="_blank" rel="external"><code>convert.exe</code></a> from ImageMagick’s <code>portable-Q16-x64</code> Windows binary to resize everything to a maximum width of 1920 pixels and watermark it; problem here is that it also upscales images, so will need to update this part in the future.<br>Out of all that package I needed <code>convert.exe</code>, <code>magic.xml</code> and <code>type.xml</code>.</p>
+</li>
+<li><p><a href="https://www.kapadiya.net/jpegoptim-win32/binaries.html" target="_blank" rel="external"><code>jpegoptim.exe</code></a> is next and it simply converts the image to quality of 88 (arbitrary number that I like and seems to strike good balance between image quality and file size) and removes all meta-data.</p>
+</li>
+<li><p>Last step for JPEGs is <a href="http://jpegclub.org/jpegtran/" target="_blank" rel="external"><code>jpegtran.exe</code></a> which does lossless optimization to squeeze a couple extra kilobytes from what’s left after the previous step.</p>
+</li>
+<li><p>Watermarking for PNGs is currently the same as for JPEGs, but I want to this to be a separate step in case I decide to change something in the future.</p>
+</li>
+<li><p>Last but not least is <a href="http://advsys.net/ken/utils.htm" target="_blank" rel="external">pngout.exe</a> that makes PNGs really small without any quality loss.</p>
+</li>
+</ol>
+<p>Size of that photo at the beginning of this post was reduced from <code>3 340 228 bytes</code> (8 megapixels) to just <code>351 148 bytes</code> (1920 by 1080)! Almost 10 times (9.5 to be exact)!</p>
+<p>Fun fact: while writing this post I modified my script quite a bit and the image you see at the beginning is the first version.</p>
+
+      
+    </div>
+    
+    
+      <footer class="article-footer">
+        
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/automation/">automation</a></li></ul>
+
+      </footer>
+    
+  </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/2017/01/21/orange-pi-pc-plus/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">Orange Pi PC Plus&nbsp;<span>&gt;</span></div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+
+
+<div class="share_addthis">
+  <div class="sharing addthis_toolbox share">
+    <a class="addthis_button_facebook_like"></a>
+    <a class="addthis_button_tweet"></a>
+    <a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
+    <a class="addthis_counter addthis_pill_style"></a>
+  </div>
+  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-560c64c35486b3d4" async="async"></script>
+</div>
+
+
+
+
+
+</section>
+    <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2017 TurboLion&nbsp;
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>, theme by <a href="http://github.com/ppoffice">PPOffice</a>
+    </div>
+  </div>
+</footer>
+    
+
+<script src="/js/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+  </div>
+</body>
+</html>
