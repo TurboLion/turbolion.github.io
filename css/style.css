@@ -510,11 +510,11 @@ a.article-title:hover,
 .article-entry th {
   font-weight: 700;
   border-bottom: 3px solid #ddd;
-  padding-bottom: 0.5em;
+  padding: 10px;
 }
 .article-entry td {
   border-bottom: 1px solid #ddd;
-  padding: 10px 0;
+  padding: 10px;
 }
 .article-entry blockquote {
   font-family: 'Droid Serif', 'PT Serif', Cambria, serif;
