@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Redshift on Lubuntu on a Raspberry Pi - TurboBlog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="I did it! I managed to get Redshift running on my Raspberry Pi 2 Model B!">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Redshift on Lubuntu on a Raspberry Pi">
+<meta property="og:url" content="http://turbolion.github.io/2017/01/25/redshift-on-lubuntu-on-a-raspberry-pi/index.html">
+<meta property="og:site_name" content="TurboBlog">
+<meta property="og:description" content="I did it! I managed to get Redshift running on my Raspberry Pi 2 Model B!">
+<meta property="og:image" content="http://turbolion.github.io/2017/01/25/redshift-on-lubuntu-on-a-raspberry-pi/lubuntu-rpi-redshift.jpg">
+<meta property="og:image" content="http://turbolion.github.io/2017/01/25/redshift-on-lubuntu-on-a-raspberry-pi/raspi-config-1.png">
+<meta property="og:image" content="http://turbolion.github.io/2017/01/25/redshift-on-lubuntu-on-a-raspberry-pi/raspi-config-2.png">
+<meta property="og:image" content="http://turbolion.github.io/2017/01/25/redshift-on-lubuntu-on-a-raspberry-pi/raspi-config-3.png">
+<meta property="og:image" content="http://turbolion.github.io/2017/01/25/redshift-on-lubuntu-on-a-raspberry-pi/raspi-config-4.png">
+<meta property="og:image" content="http://turbolion.github.io/2017/01/25/redshift-on-lubuntu-on-a-raspberry-pi/raspi-config-5.png">
+<meta property="og:updated_time" content="2017-01-23T21:21:06.942Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Redshift on Lubuntu on a Raspberry Pi">
+<meta name="twitter:description" content="I did it! I managed to get Redshift running on my Raspberry Pi 2 Model B!">
+<meta name="twitter:image" content="http://turbolion.github.io/2017/01/25/redshift-on-lubuntu-on-a-raspberry-pi/lubuntu-rpi-redshift.jpg">
+  
+  
+    <link rel="icon" href="/favicon.ico">
+  
+  <link href="/webfonts/ptserif/main.css" rel='stylesheet' type='text/css'>
+  <link href="/webfonts/source-code-pro/main.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="/css/style.css">
+  
+<!-- Google Analytics -->
+<script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-51376562-2', 'auto');
+ga('send', 'pageview');
+
+</script>
+<!-- End Google Analytics -->
+
+
+</head>
+
+<body>
+  <div id="container">
+    <header id="header">
+  <div id="header-outer" class="outer">
+    <div id="header-inner" class="inner">
+      <a id="main-nav-toggle" class="nav-icon" href="javascript:;"></a>
+      <a id="logo" class="logo logo-text" href="/">TurboBlog</a>
+      <nav id="main-nav">
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+          <a class="main-nav-link" href="/categories">Categories</a>
+        
+          <a class="main-nav-link" href="/tags">Tags</a>
+        
+          <a class="main-nav-link" href="/about">About</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        <div id="search-form-wrap">
+          <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://turbolion.github.io"></form>
+        </div>
+      </nav>
+    </div>
+  </div>
+</header>
+    <section id="main" class="outer"><article id="post-redshift-on-lubuntu-on-a-raspberry-pi" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      Redshift on Lubuntu on a Raspberry Pi
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-meta">
+      <a href="/2017/01/25/redshift-on-lubuntu-on-a-raspberry-pi/" class="article-date">
+  <time datetime="2017-01-24T22:00:00.000Z" itemprop="datePublished">2017-01-25</time>
+</a>
+      
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/software/">software</a>
+  </div>
+
+      
+    </div>
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>I did it! I managed to get <a href="http://jonls.dk/redshift/" target="_blank" rel="external">Redshift</a> running on my Raspberry Pi 2 Model B!</p>
+<img src="/2017/01/25/redshift-on-lubuntu-on-a-raspberry-pi/lubuntu-rpi-redshift.jpg" alt="My eyes are really happy now" title="My eyes are really happy now">
+<a id="more"></a>
+<p><em>Attribution time! The picture you see above is a combination of the following images:</em></p>
+<ul>
+<li><a href="https://commons.wikimedia.org/wiki/File:Sky_August_2010-1a.jpg" target="_blank" rel="external"><em>Background</em></a></li>
+<li><a href="https://commons.wikimedia.org/wiki/File:Lubuntu.svg" target="_blank" rel="external"><em>Lubuntu logo</em></a></li>
+<li><a href="http://www.soft9000.com/blog9000/images/pi_logo.png" target="_blank" rel="external"><em>Raspberry Pi logo</em></a></li>
+<li><a href="http://jonls.dk/assets/redshift-icon-256.png" target="_blank" rel="external"><em>Redshift logo</em></a></li>
+</ul>
+<p>I downloaded <a href="http://lubuntu.me/downloads/" target="_blank" rel="external">Lubuntu 16.04</a>, uploaded to a <a href="https://www.aliexpress.com/item/Real-capacity-memory-card-8g-micro-sd-card-32-GB-class-64GB-10-microsd-TF-Card/32274315064.html" target="_blank" rel="external">8GB micro SD card</a> and put into <a href="https://www.raspberrypi.org/products/raspberry-pi-2-model-b/" target="_blank" rel="external">Raspberry Pi 2 Model B v1.1</a>. At first I was trying to make <a href="https://justgetflux.com/" target="_blank" rel="external">f.lux</a> to finally <a href="https://github.com/xflux-gui/xflux-gui" target="_blank" rel="external">work on my Linux system</a>, but no luck. Then I found an alternative called <em>Redshift</em>, which (in the end) worked perfectly. To do this, I enabled the experimental OpenGL driver.</p>
+<p>Here’s what I did (thanks to a <a href="https://www.reddit.com/r/raspberry_pi/comments/50dm4r/flux_or_redshift_working_on_raspian/db1yk1w/" target="_blank" rel="external">comment on Reddit</a> for providing part of these steps):</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># Updating Raspberry Pi firmware</span></div><div class="line">sudo rpi-update</div><div class="line"></div><div class="line"><span class="comment"># Restart just in case</span></div><div class="line">reboot</div><div class="line"></div><div class="line"><span class="comment"># Download package lists from repositories</span></div><div class="line">sudo apt-get update</div><div class="line"></div><div class="line"><span class="comment"># Upgrade everything (WARNING: this took more than an hour for me)</span></div><div class="line">sudo apt-get dist-upgrade</div><div class="line"></div><div class="line"><span class="comment"># Protagonist of this post</span></div><div class="line">sudo apt-get install redshift</div><div class="line"></div><div class="line"><span class="comment"># The RPi config tool</span></div><div class="line">sudo apt-get install raspi-config</div><div class="line"></div><div class="line"><span class="comment"># I needed it to enable the OpenGL driver</span></div><div class="line">sudo apt-get install xcompmgr</div><div class="line"></div><div class="line"><span class="comment"># See the screenshots to know what to do next</span></div><div class="line">sudo raspi-config</div></pre></td></tr></table></figure>
+<p>&nbsp;<br><img src="/2017/01/25/redshift-on-lubuntu-on-a-raspberry-pi/raspi-config-1.png" alt="Select [9 Advanced Options]" title="Select [9 Advanced Options]"><br><img src="/2017/01/25/redshift-on-lubuntu-on-a-raspberry-pi/raspi-config-2.png" alt="Select [AA GL Driver]" title="Select [AA GL Driver]"><br><img src="/2017/01/25/redshift-on-lubuntu-on-a-raspberry-pi/raspi-config-3.png" alt="Yep, that's what we want to do [Enable]" title="Yep, that's what we want to do [Enable]"><br><img src="/2017/01/25/redshift-on-lubuntu-on-a-raspberry-pi/raspi-config-4.png" alt="Cool! [OK]" title="Cool! [OK]"><br><img src="/2017/01/25/redshift-on-lubuntu-on-a-raspberry-pi/raspi-config-5.png" alt="I suggest you go ahead and reboot [Yes]" title="I suggest you go ahead and reboot [Yes]"></p>
+<p>After the restart run:</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">redshift -O 3500</div></pre></td></tr></table></figure>
+<p>And that’s it! Screen should be more orange now. Now it can setup based on this page:<br><a href="http://jonls.dk/redshift/" target="_blank" rel="external">http://jonls.dk/redshift/</a></p>
+
+      
+    </div>
+    
+    
+      <footer class="article-footer">
+        
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/linux/">linux</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/raspberry-pi/">raspberry-pi</a></li></ul>
+
+      </footer>
+    
+  </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/2017/01/24/video-of-the-day-2017-01-24/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">Video of the day 2017-01-24&nbsp;<span>&gt;</span></div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+
+
+<div class="share_addthis">
+  <div class="sharing addthis_toolbox share">
+    <a class="addthis_button_facebook_like"></a>
+    <a class="addthis_button_tweet"></a>
+    <a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
+    <a class="addthis_counter addthis_pill_style"></a>
+  </div>
+  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-560c64c35486b3d4" async="async"></script>
+</div>
+
+
+
+
+
+</section>
+    <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2017 TurboLion&nbsp;
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>, theme by <a href="http://github.com/ppoffice">PPOffice</a>
+    </div>
+  </div>
+</footer>
+    
+
+<script src="/js/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+  </div>
+</body>
+</html>
