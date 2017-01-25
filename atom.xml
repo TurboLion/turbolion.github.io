@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>TurboBlog</title>
+  <subtitle>TurboLion&#39;s Blog</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://turbolion.github.io/"/>
+  <updated>2017-01-25T18:58:22.489Z</updated>
+  <id>http://turbolion.github.io/</id>
+  
+  <author>
+    <name>TurboLion</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Einhell flashlight upgrade</title>
+    <link href="http://turbolion.github.io/2017/01/26/einhell-flashlight-upgrade/"/>
+    <id>http://turbolion.github.io/2017/01/26/einhell-flashlight-upgrade/</id>
+    <published>2017-01-25T22:00:00.000Z</published>
+    <updated>2017-01-25T18:58:22.489Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;I had this flashlight from Einhell lying around, which came with a hand drill and 2 battery packs, but the light that came out of it was meh at best, so I decided to upgrade it.&lt;/p&gt;
+&lt;img src=&quot;/2017/01/26/einhell-flashlight-upgrade/dsc_1056.jpg&quot; alt=&quot;The before beamshot&quot; title=&quot;The before beamshot&quot;&gt;
+    
+    </summary>
+    
+      <category term="hardware" scheme="http://turbolion.github.io/categories/hardware/"/>
+    
+    
+      <category term="diy" scheme="http://turbolion.github.io/tags/diy/"/>
+    
+      <category term="flashlights" scheme="http://turbolion.github.io/tags/flashlights/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Redshift on Lubuntu on a Raspberry Pi</title>
+    <link href="http://turbolion.github.io/2017/01/25/redshift-on-lubuntu-on-a-raspberry-pi/"/>
+    <id>http://turbolion.github.io/2017/01/25/redshift-on-lubuntu-on-a-raspberry-pi/</id>
+    <published>2017-01-24T22:00:00.000Z</published>
+    <updated>2017-01-23T21:21:06.942Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;I did it! I managed to get &lt;a href=&quot;http://jonls.dk/redshift/&quot;&gt;Redshift&lt;/a&gt; running on my Raspberry Pi 2 Model B!&lt;/p&gt;
+&lt;img src=&quot;/2017/01/25/redshift-on-lubuntu-on-a-raspberry-pi/lubuntu-rpi-redshift.jpg&quot; alt=&quot;My eyes are really happy now&quot; title=&quot;My eyes are really happy now&quot;&gt;
+    
+    </summary>
+    
+      <category term="software" scheme="http://turbolion.github.io/categories/software/"/>
+    
+    
+      <category term="linux" scheme="http://turbolion.github.io/tags/linux/"/>
+    
+      <category term="raspberry-pi" scheme="http://turbolion.github.io/tags/raspberry-pi/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Video of the day 2017-01-24</title>
+    <link href="http://turbolion.github.io/2017/01/24/video-of-the-day-2017-01-24/"/>
+    <id>http://turbolion.github.io/2017/01/24/video-of-the-day-2017-01-24/</id>
+    <published>2017-01-23T22:00:00.000Z</published>
+    <updated>2017-01-23T21:19:17.590Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/user/CGPGrey&quot;&gt;CGP Grey&lt;/a&gt; is my favorite YouTube channel, hands down. This video talks about how we, humans, sooner rather than later might become obsolete.&lt;/p&gt;
+&lt;img src=&quot;/2017/01/24/video-of-the-day-2017-01-24/maxresdefault.jpg&quot; alt=&quot;Humans Need Not Apply &amp;#x1f916;&quot; title=&quot;Humans Need Not Apply &amp;#x1f916;&quot;&gt;
+    
+    </summary>
+    
+      <category term="thing-of-the-day" scheme="http://turbolion.github.io/categories/thing-of-the-day/"/>
+    
+    
+      <category term="youtube" scheme="http://turbolion.github.io/tags/youtube/"/>
+    
+      <category term="cgpgrey" scheme="http://turbolion.github.io/tags/cgpgrey/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>My flashlights and tint comparison</title>
+    <link href="http://turbolion.github.io/2017/01/23/my-flashlights-and-tint-comparison/"/>
+    <id>http://turbolion.github.io/2017/01/23/my-flashlights-and-tint-comparison/</id>
+    <published>2017-01-22T22:00:00.000Z</published>
+    <updated>2017-01-20T21:34:26.249Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;I’m into collecting different things and flashlights are one of the things I collect.&lt;/p&gt;
+&lt;img src=&quot;/2017/01/23/my-flashlights-and-tint-comparison/dsc_1158.jpg&quot; alt=&quot;Family photo&quot; title=&quot;Family photo&quot;&gt;
+    
+    </summary>
+    
+      <category term="hardware" scheme="http://turbolion.github.io/categories/hardware/"/>
+    
+    
+      <category term="flashlights" scheme="http://turbolion.github.io/tags/flashlights/"/>
+    
+      <category term="collection" scheme="http://turbolion.github.io/tags/collection/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>How I prepare images for this blog</title>
+    <link href="http://turbolion.github.io/2017/01/22/how-i-prepare-images-for-this-blog/"/>
+    <id>http://turbolion.github.io/2017/01/22/how-i-prepare-images-for-this-blog/</id>
+    <published>2017-01-21T22:00:00.000Z</published>
+    <updated>2017-01-21T22:03:20.950Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;A quick story about which programs I use to prepare images for this blog.&lt;/p&gt;
+&lt;img src=&quot;/2017/01/22/how-i-prepare-images-for-this-blog/dsc_1156.jpg&quot; alt=&quot;Don&#39;t worry, there will be copy-pasteable code inside &amp;#x1f603;&quot; title=&quot;Don&#39;t worry, there will be copy-pasteable code inside &amp;#x1f603;&quot;&gt;
+    
+    </summary>
+    
+      <category term="software" scheme="http://turbolion.github.io/categories/software/"/>
+    
+    
+      <category term="automation" scheme="http://turbolion.github.io/tags/automation/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Orange Pi PC Plus</title>
+    <link href="http://turbolion.github.io/2017/01/21/orange-pi-pc-plus/"/>
+    <id>http://turbolion.github.io/2017/01/21/orange-pi-pc-plus/</id>
+    <published>2017-01-20T22:00:00.000Z</published>
+    <updated>2017-01-22T15:39:09.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;em&gt;Orange Pi PC Plus&lt;/em&gt; is a &lt;a href=&quot;https://en.wikipedia.org/wiki/Single-board_computer&quot;&gt;SBC&lt;/a&gt; based on the &lt;a href=&quot;http://linux-sunxi.org/H3&quot;&gt;Allwinner H3&lt;/a&gt; Sistem-on-Chip. I got it last year to see how it compares to the &lt;em&gt;Rapsberry Pi&lt;/em&gt; and to use it for different projects, because my RPi 2 was busy being my media center running &lt;a href=&quot;http://openelec.tv/&quot;&gt;OpenELEC&lt;/a&gt;.&lt;/p&gt;
+&lt;img src=&quot;/2017/01/21/orange-pi-pc-plus/dsc_1152.jpg&quot; alt=&quot;Not all pies are created equal&quot; title=&quot;Not all pies are created equal&quot;&gt;
+    
+    </summary>
+    
+      <category term="hardware" scheme="http://turbolion.github.io/categories/hardware/"/>
+    
+    
+      <category term="orange-pi" scheme="http://turbolion.github.io/tags/orange-pi/"/>
+    
+      <category term="sbc" scheme="http://turbolion.github.io/tags/sbc/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Video of the day 2017-01-20</title>
+    <link href="http://turbolion.github.io/2017/01/20/video-of-the-day-2016-01-20/"/>
+    <id>http://turbolion.github.io/2017/01/20/video-of-the-day-2016-01-20/</id>
+    <published>2017-01-19T22:00:00.000Z</published>
+    <updated>2017-01-22T15:32:28.478Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;I found the &lt;a href=&quot;https://www.youtube.com/channel/UC4QZ_LsYcvcq7qOsOhpAX4A&quot;&gt;ColdFusion&lt;/a&gt; YouTube channel a couple of months ago and boy do they make some pretty fantastic videos. The story in this particular one left me in awe for quite some time.&lt;/p&gt;
+&lt;img src=&quot;/2017/01/20/video-of-the-day-2016-01-20/coldfusion.jpg&quot; alt=&quot;Top 5 Latest Insane Technologies! | From Bionics to Predictive A.I.&quot; title=&quot;Top 5 Latest Insane Technologies! | From Bionics to Predictive A.I.&quot;&gt;
+    
+    </summary>
+    
+      <category term="thing-of-the-day" scheme="http://turbolion.github.io/categories/thing-of-the-day/"/>
+    
+    
+      <category term="coldfusion" scheme="http://turbolion.github.io/tags/coldfusion/"/>
+    
+      <category term="youtube" scheme="http://turbolion.github.io/tags/youtube/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Spaceloop USB stick</title>
+    <link href="http://turbolion.github.io/2017/01/19/spaceloop-usb-stick/"/>
+    <id>http://turbolion.github.io/2017/01/19/spaceloop-usb-stick/</id>
+    <published>2017-01-18T22:00:00.000Z</published>
+    <updated>2017-01-18T22:46:51.500Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;My dad gifted me this 16GB USB stick a couple of years ago and it worked perfectly fine. Recently none of my PCs could access it, so I decided to take it apart. The results were… interesting.&lt;/p&gt;
+&lt;img src=&quot;/2017/01/19/spaceloop-usb-stick/dsc_1147.jpg&quot; alt=&quot;What&#39;s the catch?&quot; title=&quot;What&#39;s the catch?&quot;&gt;
+    
+    </summary>
+    
+      <category term="hardware" scheme="http://turbolion.github.io/categories/hardware/"/>
+    
+    
+      <category term="disassembly" scheme="http://turbolion.github.io/tags/disassembly/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>My first DIY flashlight</title>
+    <link href="http://turbolion.github.io/2017/01/18/my-first-diy-flashlight/"/>
+    <id>http://turbolion.github.io/2017/01/18/my-first-diy-flashlight/</id>
+    <published>2017-01-17T22:00:00.000Z</published>
+    <updated>2017-01-21T21:56:21.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;I’m a pretty big fan of DIY and flashlights, so my decision to combine the best of two worlds was the next logical step to take. Here’s everything that I used:&lt;/p&gt;
+&lt;img src=&quot;/2017/01/18/my-first-diy-flashlight/dsc_1119.jpg&quot; alt=&quot;Begin assembly!&quot; title=&quot;Begin assembly!&quot;&gt;
+    
+    </summary>
+    
+      <category term="hardware" scheme="http://turbolion.github.io/categories/hardware/"/>
+    
+    
+      <category term="diy" scheme="http://turbolion.github.io/tags/diy/"/>
+    
+      <category term="flashlights" scheme="http://turbolion.github.io/tags/flashlights/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello Hexo</title>
+    <link href="http://turbolion.github.io/2017/01/17/hello-hexo/"/>
+    <id>http://turbolion.github.io/2017/01/17/hello-hexo/</id>
+    <published>2017-01-16T22:00:00.000Z</published>
+    <updated>2017-01-20T10:56:57.014Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt; is pretty awesome! It’s what I use to run this blog.&lt;/p&gt;
+&lt;img src=&quot;/2017/01/17/hello-hexo/6375567.png&quot; alt=&quot;Hello world!&quot; title=&quot;Hello world!&quot;&gt;
+    
+    </summary>
+    
+      <category term="software" scheme="http://turbolion.github.io/categories/software/"/>
+    
+    
+      <category term="webdev" scheme="http://turbolion.github.io/tags/webdev/"/>
+    
+  </entry>
+  
+</feed>
